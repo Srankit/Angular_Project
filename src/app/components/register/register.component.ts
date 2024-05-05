@@ -6,11 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent {
-  formData: any = {}; // Object to hold form data
+  formData: any = {}; 
 
   onSubmit() {
-    // Handle form submission
+    
     console.log('Form Data:', this.formData);
-    // Here you can perform actions like sending the form data to a server
+    
   }
 }
