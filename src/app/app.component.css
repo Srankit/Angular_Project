@@ -1,17 +1,22 @@
 #header {
-  display: flex; 
-  align-items: center; 
-  justify-content: space-between; 
-  padding: 20px; 
-   
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-
-button{
-  border-radius: 5px; 
-  background-color: 
-  black;color: orangered;
+button {
+  border-radius: 5px;
+  background-color: black;
+  color: orangered;
   margin-top: 31px;
+  position: sticky;
 }
 
 
+@media screen and (max-width: 768px) {
+  button {
+    margin-top: 200px;
+   
+  }
+}
