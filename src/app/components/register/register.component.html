@@ -1,0 +1,33 @@
+<div class="container-fluid box">
+  <div class="container">
+    <div class="row text-white">
+      <div class="col-md-8 mx-auto">
+        <h1 class="text-center">Pet Registration Form</h1>
+        <form (ngSubmit)="onSubmit()" #registrationForm="ngForm">
+          <div class="form-group">
+            <label for="dogName">Dog's Name</label>
+            <input type="text" class="form-control" id="dogName" name="dogName" placeholder="Enter dog's name" [(ngModel)]="formData.dogName" required>
+          </div>
+          <div class="form-group">
+            <label for="breed">Breed</label>
+            <input type="text" class="form-control" id="breed" name="breed" placeholder="Enter dog's breed" [(ngModel)]="formData.breed" required>
+          </div>
+          <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" class="form-control" id="age" name="age" placeholder="Enter dog's age" [(ngModel)]="formData.age" required>
+          </div>
+          <div class="form-group">
+            <label for="weight">Weight (in pounds)</label>
+            <input type="number" class="form-control" id="weight" name="weight" placeholder="Enter dog's weight" [(ngModel)]="formData.weight" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email Address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email, We'll never share your email with anyone else" [(ngModel)]="formData.email" required email>
+            <small id="emailHelp" class="form-text text-muted">.</small>
+          </div>
+          <button type="submit" class="btn btn-outline-success btn-lg d-block mx-auto">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dog-image {
+  position: relative;
+}
+
+.dog-image img {
+  max-width: 70%;
+  height: 52%;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: block;
+}
+
+.showContent {
+  position: relative;
+}
+
+.showContent section {
+  margin-bottom: 0px;
+}
+
+.showContent h2 {
+  font-size: 24px;
+}
+
+.showContent p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}

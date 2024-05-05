@@ -1,0 +1,37 @@
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav h2 {
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: orangered;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+.nav-link {
+  color: white;
+}
